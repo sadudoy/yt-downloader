@@ -1,0 +1,23 @@
+/* Global Text Selection */
+::selection {
+  background-color: #f43f5e; /* Rose 500 */
+  color: white;
+}
+
+/* Custom Webkit Scrollbar for the dropdowns and page */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262a3d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff3b5c;
+}
